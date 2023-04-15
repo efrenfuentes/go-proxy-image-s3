@@ -1,5 +1,7 @@
 package main
 
+import "go-proxy-image-s3/cmd"
+
 func main() {
-	println("Golang proxy to resize S3 images")
+	cmd.Execute()
 }
