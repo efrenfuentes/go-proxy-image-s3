@@ -34,5 +34,5 @@ var webCmd = &cobra.Command{
 func init() {
 	rootCmd.AddCommand(webCmd)
 
-	webCmd.PersistentFlags().StringVar(&httpAddr, "addr", "127.0.0.1:8080", "HTTP server address")
+	webCmd.PersistentFlags().StringVar(&httpAddr, "addr", "0.0.0.0:8080", "HTTP server address")
 }
